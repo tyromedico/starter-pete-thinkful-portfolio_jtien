@@ -24,6 +24,16 @@ header {
   align-items: center;
 }
 
+/*about*/
+#about-section {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+/*petetext*/
+#petetext {
+  text-align: left;
+}
 /* Containers */
 div {
   background-color: #eae2b7;
