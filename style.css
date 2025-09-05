@@ -35,8 +35,10 @@ header {
   text-align: left;
 }
 
-/*pfsection*/
-.pfsection {
+/* Containers */
+
+/*studio-portfolio*/
+.studio-portfolio {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -44,12 +46,18 @@ header {
   height:100%;
 }
 
+.my-art > img {
+  flex-basis: auto;
+  height: auto;
+  width: auto;
+  margin: 5px;
+}
+
 /*font size*/
-.pfsection > section > p {
+.studio-portfolio > section > p {
   font-size: 14px;
 }
 
-/* Containers */
 div {
   background-color: #eae2b7;
   margin: auto;
